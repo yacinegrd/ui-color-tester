@@ -1,0 +1,66 @@
+<svg width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="14" height="14" fill="white"/>
+<rect y="28" width="14" height="14" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 56 14)" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 56 42)" fill="white"/>
+<rect x="28" width="14" height="14" fill="white"/>
+<rect x="28" y="28" width="14" height="14" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 28 14)" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 28 42)" fill="white"/>
+<rect x="14" width="14" height="14" fill="#CCCCCC"/>
+<rect x="14" y="28" width="14" height="14" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 42 14)" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 42 42)" fill="#CCCCCC"/>
+<rect x="42" width="14" height="14" fill="#CCCCCC"/>
+<rect x="42" y="28" width="14" height="14" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 14 14)" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 14 42)" fill="#CCCCCC"/>
+<rect x="56" width="14" height="14" fill="white"/>
+<rect x="56" y="28" width="14" height="14" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 112 14)" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 112 42)" fill="white"/>
+<rect x="84" width="14" height="14" fill="white"/>
+<rect x="84" y="28" width="14" height="14" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 84 14)" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 84 42)" fill="white"/>
+<rect x="70" width="14" height="14" fill="#CCCCCC"/>
+<rect x="70" y="28" width="14" height="14" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 98 14)" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 98 42)" fill="#CCCCCC"/>
+<rect x="98" width="14" height="14" fill="#CCCCCC"/>
+<rect x="98" y="28" width="14" height="14" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 70 14)" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 70 42)" fill="#CCCCCC"/>
+<rect y="56" width="14" height="14" fill="white"/>
+<rect y="84" width="14" height="14" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 56 70)" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 56 98)" fill="white"/>
+<rect x="28" y="56" width="14" height="14" fill="white"/>
+<rect x="28" y="84" width="14" height="14" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 28 70)" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 28 98)" fill="white"/>
+<rect x="14" y="56" width="14" height="14" fill="#CCCCCC"/>
+<rect x="14" y="84" width="14" height="14" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 42 70)" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 42 98)" fill="#CCCCCC"/>
+<rect x="42" y="56" width="14" height="14" fill="#CCCCCC"/>
+<rect x="42" y="84" width="14" height="14" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 14 70)" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 14 98)" fill="#CCCCCC"/>
+<rect x="56" y="56" width="14" height="14" fill="white"/>
+<rect x="56" y="84" width="14" height="14" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 112 70)" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 112 98)" fill="white"/>
+<rect x="84" y="56" width="14" height="14" fill="white"/>
+<rect x="84" y="84" width="14" height="14" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 84 70)" fill="white"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 84 98)" fill="white"/>
+<rect x="70" y="56" width="14" height="14" fill="#CCCCCC"/>
+<rect x="70" y="84" width="14" height="14" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 98 70)" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 98 98)" fill="#CCCCCC"/>
+<rect x="98" y="56" width="14" height="14" fill="#CCCCCC"/>
+<rect x="98" y="84" width="14" height="14" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 70 70)" fill="#CCCCCC"/>
+<rect width="14" height="14" transform="matrix(-1 0 0 1 70 98)" fill="#CCCCCC"/>
+</svg>

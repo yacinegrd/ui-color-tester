@@ -1,0 +1,63 @@
+.color-picker-container {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #232323;
+  padding: 16px 32px;
+  .color-picker {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    &:hover {
+      cursor: pointer;
+    }
+    &::after {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      border-radius: 7px;
+      background-image: url("/transprency-grid.svg");
+      background-size: contain;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+  button {
+    height: 50px;
+    padding: 0 32px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+}
+.picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed !important;
+  bottom: 110px;
+  left: 100px;
+  background-color: #232323;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 99999;
+  .color-input {
+    font-size: 16px;
+    margin-top: 16px;
+    padding: 4px 0 4px 10px;
+    border: none;
+    border-radius: 3px;
+
+    &:focus {
+      outline: none;
+      border-radius: 3px;
+    }
+  }
+}
