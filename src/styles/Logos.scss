@@ -1,0 +1,23 @@
+.logos-section {
+  .spacer {
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    opacity: 0.2;
+  }
+  .logos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    svg {
+      transition: scale 0.2s ease-out;
+      &:hover {
+        scale: 1.1;
+      }
+    }
+  }
+}
