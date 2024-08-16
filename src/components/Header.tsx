@@ -83,20 +83,20 @@ const Header = () => {
           <path
             d="M1 13.5H17"
             className="svg-stroke-primary"
-            stroke-width="2"
-            stroke-linecap="round"
+            strokeWidth="2"
+            strokeLinecap="round"
           />
           <path
             d="M1 7.5H17"
             className="svg-stroke-primary"
-            stroke-width="2"
-            stroke-linecap="round"
+            strokeWidth="2"
+            strokeLinecap="round"
           />
           <path
             d="M1 1.5H17"
             className="svg-stroke-primary"
-            stroke-width="2"
-            stroke-linecap="round"
+            strokeWidth="2"
+            strokeLinecap="round"
           />
         </svg>
       ) : (

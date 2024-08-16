@@ -37,16 +37,16 @@ const CTA = () => {
           <path
             d="M136 65C136 113.325 174.951 152.5 223 152.5C174.951 152.5 136 191.675 136 240C136 191.675 97.0487 152.5 49 152.5C97.0487 152.5 136 113.325 136 65Z"
             className="svg-fill-primary svg-stroke-primary"
-            stroke-width="3.75"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="3.75"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
           <path
             d="M339 65C339 113.325 377.951 152.5 426 152.5C377.951 152.5 339 191.675 339 240C339 191.675 300.049 152.5 252 152.5C300.049 152.5 339 113.325 339 65Z"
             className="svg-fill-primary svg-stroke-primary"
-            stroke-width="3.75"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="3.75"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
       </svg>
