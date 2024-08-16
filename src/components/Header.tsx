@@ -7,7 +7,7 @@ const Header = () => {
 
   useEffect(() => {
     setScreenSize(window.innerWidth);
-    window.addEventListener("resize", (e) => {
+    window.addEventListener("resize", () => {
       setScreenSize(window.innerWidth);
     });
   }, []);
