@@ -32,6 +32,13 @@ const ColorSquare = ({
     }
   }, [activePicker]);
 
+  useEffect(() => {
+    activePicker.set(type, {
+      color: color,
+      active: activePicker.get(type)!.active,
+    });
+  }, [color]);
+
   return (
     <>
       <div
@@ -77,6 +84,7 @@ const ColorSquare = ({
             });
           } else {
             setShowPicker(!showPicker);
+            activePicker.set(type, { color: color, active: false });
           }
           setMousePosition(e.clientX);
         }}
