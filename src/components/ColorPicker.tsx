@@ -1,108 +1,44 @@
 import "../styles/ColorPicker.scss";
-
-import { HexAlphaColorPicker, HexColorInput } from "react-colorful";
 import { useState } from "react";
 import ColorSquare from "./ColorSquare";
 
-const colors = {
-  primary: {
-    color: "#194138",
-    active: false,
-  },
-  secondary: {
-    color: "#aaded3",
-    active: false,
-  },
-  background: {
-    color: "#ffffff",
-    active: false,
-  },
-  text: {
-    color: "#313131",
-    active: false,
-  },
-  headlines: {
-    color: "#000000",
-    active: false,
-  },
-  accent: {
-    color: "#f1ea53",
-    active: false,
-  },
-};
+interface info {
+  color: string;
+  active: boolean;
+}
+
+const activePickerMap = new Map<string, info>([
+  ["primary", { color: "#194138", active: false }],
+  ["secondary", { color: "#aaded3", active: false }],
+  ["accent", { color: "#f1ea53", active: false }],
+  ["background", { color: "#ffffff", active: false }],
+  ["headlines", { color: "#000000", active: false }],
+  ["text", { color: "#313131", active: false }],
+]);
 
 const ColorPicker = () => {
-  // picker state
-  const [showPicker, setShowPicker] = useState(false);
-  const [color, setColor] = useState("#aabbcc");
-  const [mousePosition, setMousePosition] = useState(0);
+  const [activePicker, setActivePicker] = useState(activePickerMap);
 
   return (
-    <>
-      <div
-        className="picker-container"
-        style={{
-          left: mousePosition,
-          visibility: showPicker ? "visible" : "hidden",
-        }}
-      >
-        <HexAlphaColorPicker color={color} onChange={setColor} />
-        <HexColorInput
-          className="color-input"
-          color={color}
-          onChange={setColor}
-          placeholder="Type a color"
-          prefixed
-          alpha
-        />
-      </div>
-
+    <div className="fixed-full-width">
       <div className="color-picker-container">
-        <ColorSquare
-          setShowPicker={setShowPicker}
-          setMousePosition={setMousePosition}
-          showPicker={showPicker}
-          initColor={colors.primary.color}
-          inputColor={color}
-        />
-        <ColorSquare
-          setShowPicker={setShowPicker}
-          setMousePosition={setMousePosition}
-          showPicker={showPicker}
-          initColor={colors.secondary.color}
-          inputColor={color}
-        />
-        <ColorSquare
-          setShowPicker={setShowPicker}
-          setMousePosition={setMousePosition}
-          showPicker={showPicker}
-          initColor={colors.accent.color}
-          inputColor={color}
-        />
-        <ColorSquare
-          setShowPicker={setShowPicker}
-          setMousePosition={setMousePosition}
-          showPicker={showPicker}
-          initColor={colors.background.color}
-          inputColor={color}
-        />
-        <ColorSquare
-          setShowPicker={setShowPicker}
-          setMousePosition={setMousePosition}
-          showPicker={showPicker}
-          initColor={colors.headlines.color}
-          inputColor={color}
-        />
-        <ColorSquare
-          setShowPicker={setShowPicker}
-          setMousePosition={setMousePosition}
-          showPicker={showPicker}
-          initColor={colors.text.color}
-          inputColor={color}
-        />
-        <button>Apply</button>
+        {Array.from(activePickerMap.entries()).map(
+          ([key, value]: [string, info]) => {
+            return (
+              <ColorSquare
+                key={key}
+                type={key}
+                initColor={value.color}
+                activePicker={activePicker}
+                setActivePicker={setActivePicker}
+              />
+            );
+          }
+        )}
+
+        <button onClick={() => console.log(activePicker)}>Apply</button>
       </div>
-    </>
+    </div>
   );
 };
 
