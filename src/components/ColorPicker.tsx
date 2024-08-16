@@ -36,7 +36,17 @@ const ColorPicker = () => {
           }
         )}
 
-        <button onClick={() => console.log(activePicker)}>Apply</button>
+        <button
+          onClick={() => {
+            const root = document.querySelector<HTMLElement>(":root");
+
+            activePicker.forEach((value, key) => {
+              root!.style.setProperty(`--color-${key}`, value.color);
+            });
+          }}
+        >
+          Apply
+        </button>
       </div>
     </div>
   );

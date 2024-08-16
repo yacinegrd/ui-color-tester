@@ -15,8 +15,7 @@ const DarkSection = () => {
             >
               <path
                 d="M9.5 1C9.5 5.69442 13.3055 9.5 18 9.5C13.3055 9.5 9.5 13.3055 9.5 18C9.5 13.3055 5.69442 9.5 1 9.5C5.69442 9.5 9.5 5.69442 9.5 1Z"
-                fill="#F1EA53"
-                stroke="#F1EA53"
+                className="svg-fill-accent svg-stroke-accent"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
