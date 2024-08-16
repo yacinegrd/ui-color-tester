@@ -1,6 +1,17 @@
+import { useEffect, useState } from "react";
 import "../styles/Header.scss";
 
 const Header = () => {
+  const [screenSize, setScreenSize] = useState(0);
+  const [showNav, setShowNav] = useState(false);
+
+  useEffect(() => {
+    setScreenSize(window.innerWidth);
+    window.addEventListener("resize", (e) => {
+      setScreenSize(window.innerWidth);
+    });
+  }, []);
+
   return (
     <header>
       <svg
@@ -38,7 +49,11 @@ const Header = () => {
           className="svg-fill-primary"
         />
       </svg>
-      <nav>
+      <nav
+        style={{
+          visibility: showNav || screenSize > 800 ? "visible" : "hidden",
+        }}
+      >
         <ul className="nav-links-container">
           <a href="">
             <li className="nav-link">Logos</li>
@@ -54,6 +69,39 @@ const Header = () => {
           </a>
         </ul>
       </nav>
+      {screenSize < 800 ? (
+        <svg
+          onClick={() => {
+            setShowNav(!showNav);
+          }}
+          width="18"
+          height="15"
+          viewBox="0 0 18 15"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 13.5H17"
+            className="svg-stroke-primary"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M1 7.5H17"
+            className="svg-stroke-primary"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M1 1.5H17"
+            className="svg-stroke-primary"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      ) : (
+        <></>
+      )}
     </header>
   );
 };

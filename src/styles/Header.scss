@@ -9,3 +9,21 @@ header {
     font-weight: 600;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  header {
+    nav ul {
+      padding: 16px 24px;
+      border-radius: 3px;
+      flex-direction: column;
+      position: absolute;
+      background-color: var(--color-primary);
+      top: 60px;
+      right: 10px;
+      z-index: 9999;
+      li {
+        color: var(--color-background);
+      }
+    }
+  }
+}

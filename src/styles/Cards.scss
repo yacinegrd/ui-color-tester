@@ -79,3 +79,28 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .cards-container {
+    flex-direction: column;
+  }
+  .cards-section-text {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .cards-section .cards-container .card:last-of-type {
+    border-top-right-radius: 8px;
+  }
+  .cards-section .cta {
+    display: block;
+    padding: 47px;
+    svg {
+      height: 0;
+      width: 0;
+      position: absolute;
+    }
+    .cta-text P {
+      max-width: none;
+    }
+  }
+}

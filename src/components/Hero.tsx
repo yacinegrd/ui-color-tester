@@ -11,7 +11,7 @@ const Hero = () => {
           for your project. Whether you're a designer, developer, or just
           exploring, get instant feedback and see your colors come to life.
         </p>
-        <button onClick={() => {}}>Change</button>
+        <button>Button</button>
       </div>
       <div className="hero-grid">
         <div className="grid-element g-e-1 g-e-dark">

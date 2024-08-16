@@ -65,3 +65,21 @@
     }
   }
 }
+
+@media only screen and (max-width: 650px) {
+  .color-picker-container {
+    gap: 8px;
+    .color-picker {
+      width: 30px;
+      height: 30px;
+    }
+    button {
+      padding: 0 8px;
+      height: 30px;
+    }
+  }
+  .picker-container {
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+}

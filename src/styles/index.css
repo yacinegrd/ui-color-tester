@@ -65,7 +65,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: var(--color-text);
 }
 
 .svg-fill-primary {
@@ -94,4 +94,11 @@ a {
 
 .svg-stroke-accent {
   stroke: var(--color-accent);
+}
+
+@media only screen and (max-width: 1080px) {
+  section,
+  header {
+    margin: 0 32px;
+  }
 }
