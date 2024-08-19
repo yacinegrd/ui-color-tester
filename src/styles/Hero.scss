@@ -79,6 +79,7 @@
 @media only screen and (max-width: 800px) {
   .hero {
     flex-direction: column;
+    padding: 80px 0;
     gap: 32px;
     .left-section h1 {
       font-size: 38px;

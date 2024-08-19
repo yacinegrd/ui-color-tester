@@ -2,7 +2,7 @@ import "../styles/Logos.scss";
 
 const Logos = () => {
   return (
-    <section className="logos-section">
+    <section id="logos" className="logos-section">
       <div className="spacer"></div>
       <div className="logos">
         <svg

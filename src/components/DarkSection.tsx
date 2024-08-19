@@ -1,7 +1,7 @@
 import "../styles/DarkSection.scss";
 const DarkSection = () => {
   return (
-    <div className="full-width">
+    <div id="dark" className="full-width">
       <section className="dark-section">
         <div className="dark-section-header">
           <h2>Consectetur Adipiscing Aliquip Elit </h2>

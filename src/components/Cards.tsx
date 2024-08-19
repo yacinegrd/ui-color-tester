@@ -2,7 +2,7 @@ import "../styles/Cards.scss";
 import CTA from "./CTA";
 const Cards = () => {
   return (
-    <section className="cards-section">
+    <section id="cards" className="cards-section">
       <div className="cards-section-header">
         <p>eiusmod tempor incididunt</p>
 

@@ -55,16 +55,16 @@ const Header = () => {
         }}
       >
         <ul className="nav-links-container">
-          <a href="">
+          <a href="#logos">
             <li className="nav-link">Logos</li>
           </a>
-          <a href="">
+          <a href="#dark">
             <li className="nav-link">Dark Section</li>
           </a>
-          <a href="">
+          <a href="#cards">
             <li className="nav-link">Cards</li>
           </a>
-          <a href="">
+          <a href="#footer">
             <li className="nav-link">Footer</li>
           </a>
         </ul>

@@ -2,7 +2,7 @@ import "../styles/Footer.scss";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <section>
         <svg
           width="162"
